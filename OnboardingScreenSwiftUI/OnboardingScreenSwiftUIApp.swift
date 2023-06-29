@@ -13,7 +13,7 @@ struct OnboardingScreenSwiftUIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PageIntro()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
